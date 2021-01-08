@@ -7,6 +7,7 @@ public class Result {
         System.out.println("enter email id..");
         ob.setEmial_Id(sc.nextLine());
        System.out.println(ob.getEmial_Id());
+        System.out.println("new line add");
        int val=ob.getEmial_Id().indexOf("@");
        if(val!=0)
        {
